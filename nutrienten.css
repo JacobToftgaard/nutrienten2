@@ -1,0 +1,56 @@
+body {
+  background: #4a69bd;
+  font-family: "Roboto Slab", serif;
+}
+
+h2 {
+  color: #7c0202;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: blue;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+.content {
+  margin-bottom: 100px;
+}
+
+#mainNavbar {
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+#mainNavbar .nav-link:hover {
+  color: #7c0202;
+}
+#mainNavbar .navbar-brand {
+  color: #7c0202;
+  font-size: 2rem;
+}
+#headingGroup span {
+  color: #7c0202;
+}
+
+#headingGroup h1 {
+  font-weight: 500;
+  font-size: 5rem;
+}
+
+.navbar.scrolled {
+  background: rgb(42, 184, 245);
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-weight: 500;
+    font-size: 4rem;
+  }
+}
